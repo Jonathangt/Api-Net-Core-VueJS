@@ -1,0 +1,472 @@
+{
+	"info": {
+		"_postman_id": "5402dc7a-ecb6-47cc-bc9f-fa817722c14f",
+		"name": "ApiCore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Clientes",
+			"item": [
+				{
+					"name": "Index",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:52225/api/clientes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"clientes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Belen Isis 4\",\r\n    \"apellido\": \"Castrso 4\",\r\n    \"telefono\": \"09112554478\",\r\n    \"direccion\": \"Guasmo\",\r\n    \"ciudad\": \"Guayaquil\",\r\n    \"estado\": \"Sin Estado\",\r\n    \"codigoPostal\": \"001\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/clientes/Create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"clientes",
+								"Create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idCliente\": 1,\r\n    \"nombre\": \"Genesis\",\r\n    \"apellido\": \"Castro\",\r\n    \"telefono\": \"09666666\",\r\n    \"direccion\": \"Guasmo\",\r\n    \"ciudad\": \"Guayaquil\",\r\n    \"estado\": \"Estado Guayas\",\r\n    \"codigoPostal\": \"001\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/clientes/Update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"clientes",
+								"Update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idCliente\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/clientes/Delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"clientes",
+								"Delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarId",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"idCliente\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/clientes/buscarPorId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"clientes",
+								"buscarPorId"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Libros",
+			"item": [
+				{
+					"name": "Index",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/libros",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"libros"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\": \"Asp 7\",\r\n    \"autornombre\": \"Microsft 7\",\r\n    \"autorapellido\": \"Microsft SA\",\r\n    \"categoria\": \"Programacion\",\r\n    \"precio\": 200.0\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/libros/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"libros",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idLibro\": 2,\r\n    \"titulo\": \"Asp Core 99\",\r\n    \"autornombre\": \"Microsft\",\r\n    \"autorapellido\": \"Microsft SA\",\r\n    \"categoria\": \"Programacion\",\r\n    \"precio\": 100.0\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/libros/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"libros",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idLibro\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/libros/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"libros",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarId Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idLibro\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/libros/buscarPorId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"libros",
+								"buscarPorId"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Ordenes",
+			"item": [
+				{
+					"name": "Index",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/ordenes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"ordenes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idCliente\": 2,\r\n    \"idLibro\": 1,\r\n    \"fechaOrden\": \"01 Nov\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/ordenes/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"ordenes",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idOrden\": 3,\r\n    \"idCliente\": 2,\r\n    \"idLibro\": 1,    \r\n    \"fechaOrden\": \"01/12/20\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/ordenes/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"ordenes",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idOrden\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/ordenes/delete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"ordenes",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "BuscarId Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"idOrden\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:52225/api/ordenes/buscarPorId",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "52225",
+							"path": [
+								"api",
+								"ordenes",
+								"buscarPorId"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

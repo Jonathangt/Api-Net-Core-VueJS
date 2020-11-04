@@ -1,0 +1,15 @@
+C:\Users\Jonathangt2727\Desktop\ok\Datos\bin\Debug\netcoreapp2.1\Datos.deps.json
+C:\Users\Jonathangt2727\Desktop\ok\Datos\bin\Debug\netcoreapp2.1\Datos.runtimeconfig.json
+C:\Users\Jonathangt2727\Desktop\ok\Datos\bin\Debug\netcoreapp2.1\Datos.runtimeconfig.dev.json
+C:\Users\Jonathangt2727\Desktop\ok\Datos\bin\Debug\netcoreapp2.1\Datos.dll
+C:\Users\Jonathangt2727\Desktop\ok\Datos\bin\Debug\netcoreapp2.1\Datos.pdb
+C:\Users\Jonathangt2727\Desktop\ok\Datos\obj\Debug\netcoreapp2.1\Datos.csprojAssemblyReference.cache
+C:\Users\Jonathangt2727\Desktop\ok\Datos\obj\Debug\netcoreapp2.1\Datos.AssemblyInfoInputs.cache
+C:\Users\Jonathangt2727\Desktop\ok\Datos\obj\Debug\netcoreapp2.1\Datos.AssemblyInfo.cs
+C:\Users\Jonathangt2727\Desktop\ok\Datos\obj\Debug\netcoreapp2.1\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Jonathangt2727\Desktop\ok\Datos\obj\Debug\netcoreapp2.1\Datos.dll
+C:\Users\Jonathangt2727\Desktop\ok\Datos\obj\Debug\netcoreapp2.1\Datos.pdb
+C:\Users\Jonathangt2727\Desktop\ok\Datos\obj\Debug\netcoreapp2.1\Datos.genruntimeconfig.cache
+C:\Users\Jonathangt2727\Desktop\ok\Datos\bin\Debug\netcoreapp2.1\Models.dll
+C:\Users\Jonathangt2727\Desktop\ok\Datos\bin\Debug\netcoreapp2.1\Models.pdb
+C:\Users\Jonathangt2727\Desktop\ok\Datos\obj\Debug\netcoreapp2.1\Datos.csproj.CopyComplete
